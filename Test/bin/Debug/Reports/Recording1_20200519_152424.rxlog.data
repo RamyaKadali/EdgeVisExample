@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="54.38s"
+		durationms="54376"
+		type="root"
+		rid="1870bbecc8dbc200"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="RamyaKadali"
+		rxversion="9.3.1.0"
+		host="GLA-LAP-IT2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="3286x1080"
+		timestamp="19/05/2020 15:24:29"
+		timestampiso="2020-05-19T14:24:29"
+		endtime="19/05/2020 15:25:23"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.014"
+			timeRelativeToTestModuleStartTime="00:09.014"
+			timeWallClock="15:24:38"
+			time="00:09.014"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\Digital Barriers\EdgeVis Client\EdgeVis Client.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.119"
+			timeRelativeToTestModuleStartTime="00:09.119"
+			timeWallClock="15:24:38"
+			time="00:09.119"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EdgeVisClient.CONNECT' at 37;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='']//list[@automationid='Root']/listitem[@index='0']/?/?/button[@automationid='BtnConnect']/text[@caption='CONNECT']"
+				itempath=".//list[@automationid='Root']/listitem[@index='0']/?/?/button[@automationid='BtnConnect']/text[@caption='CONNECT']"
+				fullname="TestRepository.EdgeVisClient.CONNECT"
+				id="11e632a3f7b1451f96f13885afa72521"
+				timeout="60000"
+				codefile="c:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.568"
+			timeRelativeToTestModuleStartTime="00:17.568"
+			timeWallClock="15:24:46"
+			time="00:17.568"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EdgeVisClient.Close' at 1;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='']/?/?/button[@accessiblename='Close']"
+				itempath="?/?/button[@accessiblename='Close']"
+				fullname="TestRepository.EdgeVisClient.Close"
+				id="cd65ada5269d41e19a1091da50c5e5aa"
+				timeout="60000"
+				codefile="c:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.058"
+			timeRelativeToTestModuleStartTime="00:48.058"
+			timeWallClock="15:25:17"
+			time="00:48.058"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'TestRepository.EdgeVisClient.Close' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'TestRepository.EdgeVisClient'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\Recording1.cs"
+				codeline="91"
+				loglvl="Warn"
+				id="cd65ada5269d41e19a1091da50c5e5aa"
+				path="/form[@title='']/?/?/button[@accessiblename='Close']"
+				fullname="TestRepository.EdgeVisClient.Close"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.102"
+			timeRelativeToTestModuleStartTime="00:48.102"
+			timeWallClock="15:25:17"
+			time="00:48.102"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="c:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\Recording1.cs"
+				codeline="91"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.526"
+			timeRelativeToTestModuleStartTime="00:48.526"
+			timeWallClock="15:25:17"
+			time="00:48.526"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RootWindow.HDR700Alarm2' at 562;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='RootWindow']/tabpagelist//list[@automationid='Root']/container[2]/listitem[@automationid='HDR700_Alarm_2']"
+				itempath="tabpagelist//list[@automationid='Root']/container[2]/listitem[@automationid='HDR700_Alarm_2']"
+				fullname="TestRepository.RootWindow.HDR700Alarm2"
+				id="886b8a9f15f34e7ab00e01586c0b6ac7"
+				timeout="60000"
+				codefile="c:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.632"
+			timeRelativeToTestModuleStartTime="00:50.632"
+			timeWallClock="15:25:19"
+			time="00:50.632"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RootWindow.TBlkEncoderState' at 6;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='RootWindow']/tabpagelist//list[@automationid='Root']/container[2]/listitem[@automationid='HDR700_Alarm_2']/?/?/text[@automationid='TBlkEncoderState']"
+				itempath="tabpagelist//list[@automationid='Root']/container[2]/listitem[@automationid='HDR700_Alarm_2']/?/?/text[@automationid='TBlkEncoderState']"
+				fullname="TestRepository.RootWindow.TBlkEncoderState"
+				id="229d84c2d59e45a8beb1348b6f83ed06"
+				timeout="60000"
+				codefile="c:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.419"
+			timeRelativeToTestModuleStartTime="00:52.419"
+			timeWallClock="15:25:21"
+			time="00:52.419"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RootWindow.Root' at 46;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='RootWindow']//list[@automationid='AutoLayouts']/container[@automationid='Content']/listitem[@index='3']/button[@automationid='Root']"
+				itempath=".//list[@automationid='AutoLayouts']/container[@automationid='Content']/listitem[@index='3']/button[@automationid='Root']"
+				fullname="TestRepository.RootWindow.Root"
+				id="f540502bba774108878231e83efc8dea"
+				timeout="60000"
+				codefile="c:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\Recording1.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

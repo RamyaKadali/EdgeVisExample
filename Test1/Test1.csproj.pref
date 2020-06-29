@@ -1,0 +1,20 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Recording1.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Test1.rxtst" />
+    <Element value="Recording1.rxrec" />
+    <Element value="Recording1.cs" />
+    <Element value="Program.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections">
+      <Element value="Test1.Recording1.Connect_Server(RepoItemInfo textInfo)" />
+      <Element value="Test1.Recording1.Connect_Server(RepoItemInfo textInfo)" />
+      <Element value="Test1.Recording1.MergedUserCodeMethod(RepoItemInfo textInfo)" />
+      <Element value="Test1.Recording1.Mouse_Click_Ext735Db(RepoItemInfo textInfo)" />
+    </Array>
+  </Properties>
+</Properties>

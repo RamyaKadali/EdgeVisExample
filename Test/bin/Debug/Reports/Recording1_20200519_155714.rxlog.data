@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="21.49s"
+		durationms="21490"
+		type="root"
+		rid="57c45b7bdcc4e99"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="RamyaKadali"
+		rxversion="9.3.1.0"
+		host="GLA-LAP-IT2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="3286x1080"
+		timestamp="19/05/2020 15:57:18"
+		timestampiso="2020-05-19T14:57:18"
+		endtime="19/05/2020 15:57:40"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.089"
+			timeRelativeToTestModuleStartTime="00:08.089"
+			timeWallClock="15:57:27"
+			time="00:08.089"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\Digital Barriers\EdgeVis Client\EdgeVis Client.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.188"
+			timeRelativeToTestModuleStartTime="00:08.188"
+			timeWallClock="15:57:27"
+			time="00:08.188"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EdgeVisClient.CONNECT' at 37;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='']//list[@automationid='Root']/listitem[@index='0']/?/?/button[@automationid='BtnConnect']/text[@caption='CONNECT']"
+				itempath=".//list[@automationid='Root']/listitem[@index='0']/?/?/button[@automationid='BtnConnect']/text[@caption='CONNECT']"
+				fullname="TestRepository.EdgeVisClient.CONNECT"
+				id="11e632a3f7b1451f96f13885afa72521"
+				timeout="60000"
+				codefile="c:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.811"
+			timeRelativeToTestModuleStartTime="00:15.811"
+			timeWallClock="15:57:34"
+			time="00:15.811"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RootWindow.HDR700Alarm2' at 562;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='RootWindow']/tabpagelist//list[@automationid='Root']/container[2]/listitem[@automationid='HDR700_Alarm_2']"
+				itempath="tabpagelist//list[@automationid='Root']/container[2]/listitem[@automationid='HDR700_Alarm_2']"
+				fullname="TestRepository.RootWindow.HDR700Alarm2"
+				id="886b8a9f15f34e7ab00e01586c0b6ac7"
+				timeout="60000"
+				codefile="c:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.752"
+			timeRelativeToTestModuleStartTime="00:20.752"
+			timeWallClock="15:57:39"
+			time="00:20.752"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RootWindow.SomePicture' at 10;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='RootWindow']/?/?/picture"
+				itempath="?/?/picture"
+				fullname="TestRepository.RootWindow.SomePicture"
+				id="d2c28c3b00ae4f0a87fdc5f3093d3b1a"
+				timeout="60000"
+				codefile="c:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

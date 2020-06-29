@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="EdgeVISClient_Test"
+      id="d889e480-8ff1-45c3-9656-0c41c91cb4f5"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="EdgeVISClient_Test"
+      id="d889e480-8ff1-45c3-9656-0c41c91cb4f5"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

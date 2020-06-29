@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="06a03f67-8f7d-4841-950a-455c13be4dd5"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="EdgeVISClient_Test">
+	</codegen>
+	<variables>
+		<var
+		id="c8f01d95-4962-4117-ab65-9f550b4fdb12"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="77b88e78-69bf-4daf-a169-534b126d5ac7">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="f97fbb97-5c81-406f-a1e2-6fde3912b7e0"
+	name="EdgeVISClient_TestRepository"
+	relativepath="EdgeVISClient_TestRepository.rxrep">
+		<codegen
+		classname="EdgeVISClient_TestRepository"
+		namespace="EdgeVISClient_Test">
+		</codegen>
+		<rootfolder
+		id="ae0e42e0-1a95-407b-adc6-3216e3fba618"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

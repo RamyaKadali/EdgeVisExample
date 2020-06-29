@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Test1</name>
+    </assembly>
+    <members>
+        <member name="T:Test1.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:Test1.CloseAUT.repo">
+            <summary>
+            Holds an instance of the Test1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Test1.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Test1.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Test1.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:Test1.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Test1.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Test1.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Test1.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Test1.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Test1.Recording1.repo">
+            <summary>
+            Holds an instance of the Test1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Test1.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Test1.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Test1.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Test1.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Test1.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Test1.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Test1.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:Test1.StartAUT.repo">
+            <summary>
+            Holds an instance of the Test1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Test1.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Test1.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Test1.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:Test1.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Test1.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Test1.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Test1.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Test1.Test1Repository">
+            <summary>
+            The class representing the Test1Repository element repository.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Test1Repository element repository.
+            </summary>
+        </member>
+        <member name="M:Test1.Test1Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1Repository.EdgeVisClient">
+            <summary>
+            The EdgeVisClient folder.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1Repository.RootWindow">
+            <summary>
+            The RootWindow folder.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1Repository.EdgeVisClient1">
+            <summary>
+            The EdgeVisClient1 folder.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1Repository.MicrosoftEdge">
+            <summary>
+            The MicrosoftEdge folder.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1Repository.DemoApp">
+            <summary>
+            The DemoApp folder.
+            </summary>
+        </member>
+        <member name="T:Test1.Test1RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Test1.Test1RepositoryFolders.EdgeVisClientAppFolder">
+            <summary>
+            The EdgeVisClientAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test1.Test1RepositoryFolders.EdgeVisClientAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EdgeVisClient  folder.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.EdgeVisClientAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.EdgeVisClientAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.EdgeVisClientAppFolder.CONNECT">
+            <summary>
+            The CONNECT item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.EdgeVisClientAppFolder.CONNECTInfo">
+            <summary>
+            The CONNECT item info.
+            </summary>
+        </member>
+        <member name="T:Test1.Test1RepositoryFolders.RootWindowAppFolder">
+            <summary>
+            The RootWindowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test1.Test1RepositoryFolders.RootWindowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RootWindow  folder.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.Home">
+            <summary>
+            The Home item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.HomeInfo">
+            <summary>
+            The Home item info.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.SomePicture">
+            <summary>
+            The SomePicture item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.SomePictureInfo">
+            <summary>
+            The SomePicture item info.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.MainMenuLeft">
+            <summary>
+            The MainMenuLeft folder.
+            </summary>
+        </member>
+        <member name="T:Test1.Test1RepositoryFolders.MainMenuLeftFolder">
+            <summary>
+            The MainMenuLeftFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test1.Test1RepositoryFolders.MainMenuLeftFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MainMenuLeft  folder.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.MainMenuLeftFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.MainMenuLeftFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.MainMenuLeftFolder.Alerts">
+            <summary>
+            The Alerts item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.MainMenuLeftFolder.AlertsInfo">
+            <summary>
+            The Alerts item info.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.MainMenuLeftFolder.Ext735Db">
+            <summary>
+            The Ext735Db item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.MainMenuLeftFolder.Ext735DbInfo">
+            <summary>
+            The Ext735Db item info.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.MainMenuLeftFolder.MItemMap">
+            <summary>
+            The MItemMap item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.MainMenuLeftFolder.MItemMapInfo">
+            <summary>
+            The MItemMap item info.
+            </summary>
+        </member>
+        <member name="T:Test1.Test1RepositoryFolders.EdgeVisClient1AppFolder">
+            <summary>
+            The EdgeVisClient1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test1.Test1RepositoryFolders.EdgeVisClient1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EdgeVisClient1  folder.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.EdgeVisClient1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.EdgeVisClient1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.EdgeVisClient1AppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.EdgeVisClient1AppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:Test1.Test1RepositoryFolders.MicrosoftEdgeAppFolder">
+            <summary>
+            The MicrosoftEdgeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test1.Test1RepositoryFolders.MicrosoftEdgeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MicrosoftEdge  folder.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.MicrosoftEdgeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.MicrosoftEdgeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.MicrosoftEdgeAppFolder.MNavSwipeScroller">
+            <summary>
+            The MNavSwipeScroller item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.MicrosoftEdgeAppFolder.MNavSwipeScrollerInfo">
+            <summary>
+            The MNavSwipeScroller item info.
+            </summary>
+        </member>
+        <member name="T:Test1.Test1RepositoryFolders.DemoAppAppFolder">
+            <summary>
+            The DemoAppAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test1.Test1RepositoryFolders.DemoAppAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DemoApp  folder.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.DemoAppAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.DemoAppAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

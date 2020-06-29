@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="761d1024-a70d-4dd6-8a30-3e96ed80d5ea"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="EdgeVis_Test">
+	</codegen>
+	<variables>
+		<var
+		id="c9960c21-4a08-4ba8-bd49-29aef6a7b8e6"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files (x86)\Digital Barriers\EdgeVis Client\EdgeVis Client.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="bfb07c44-5280-4c10-a1d7-d293c5361829"
+	name="EdgeVis_TestRepository"
+	relativepath="EdgeVis_TestRepository.rxrep">
+		<codegen
+		classname="EdgeVis_TestRepository"
+		namespace="EdgeVis_Test">
+		</codegen>
+		<rootfolder
+		id="09fdfa38-e2ba-441a-8783-f08322a6ab74"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

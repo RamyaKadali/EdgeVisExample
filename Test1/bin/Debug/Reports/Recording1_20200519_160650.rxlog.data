@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.98s"
+		durationms="9981"
+		type="root"
+		rid="cd35fed647c26bc"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="RamyaKadali"
+		rxversion="9.3.1.0"
+		host="GLA-LAP-IT2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="3286x1080"
+		timestamp="19/05/2020 16:06:55"
+		timestampiso="2020-05-19T15:06:55"
+		endtime="19/05/2020 16:07:05"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.899"
+			timeRelativeToTestModuleStartTime="00:09.899"
+			timeWallClock="16:07:05"
+			time="00:09.899"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\Digital Barriers\EdgeVis Client\EdgeVis Client.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test1\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

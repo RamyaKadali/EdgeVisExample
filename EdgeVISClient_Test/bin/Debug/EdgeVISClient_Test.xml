@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EdgeVISClient_Test</name>
+    </assembly>
+    <members>
+        <member name="T:EdgeVISClient_Test.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:EdgeVISClient_Test.CloseAUT.repo">
+            <summary>
+            Holds an instance of the EdgeVISClient_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:EdgeVISClient_Test.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:EdgeVISClient_Test.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:EdgeVISClient_Test.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:EdgeVISClient_Test.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:EdgeVISClient_Test.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="T:EdgeVISClient_Test.EdgeVISClient_TestRepository">
+            <summary>
+            The class representing the EdgeVISClient_TestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:EdgeVISClient_Test.EdgeVISClient_TestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the EdgeVISClient_TestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepository.EdgeVisClient">
+            <summary>
+            The EdgeVisClient folder.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepository.RootWindow">
+            <summary>
+            The RootWindow folder.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepository.EdgeVisClient1">
+            <summary>
+            The EdgeVisClient1 folder.
+            </summary>
+        </member>
+        <member name="T:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClientAppFolder">
+            <summary>
+            The EdgeVisClientAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClientAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EdgeVisClient  folder.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClientAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClientAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClientAppFolder.CONNECT">
+            <summary>
+            The CONNECT item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClientAppFolder.CONNECTInfo">
+            <summary>
+            The CONNECT item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClientAppFolder.CONNECT1">
+            <summary>
+            The CONNECT1 item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClientAppFolder.CONNECT1Info">
+            <summary>
+            The CONNECT1 item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClientAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClientAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder">
+            <summary>
+            The RootWindowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RootWindow  folder.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.HDR700Alarm2">
+            <summary>
+            The HDR700Alarm2 item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.HDR700Alarm2Info">
+            <summary>
+            The HDR700Alarm2 item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.Root">
+            <summary>
+            The Root item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.RootInfo">
+            <summary>
+            The Root item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.PARTCloseBtn">
+            <summary>
+            The PARTCloseBtn item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.PARTCloseBtnInfo">
+            <summary>
+            The PARTCloseBtn item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.TBlkEncoderName">
+            <summary>
+            The TBlkEncoderName item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.TBlkEncoderNameInfo">
+            <summary>
+            The TBlkEncoderName item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.IP470Test2">
+            <summary>
+            The IP470Test2 item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.IP470Test2Info">
+            <summary>
+            The IP470Test2 item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.Home">
+            <summary>
+            The Home item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.HomeInfo">
+            <summary>
+            The Home item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.Ext735Db">
+            <summary>
+            The Ext735Db item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.Ext735DbInfo">
+            <summary>
+            The Ext735Db item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.MItemHome">
+            <summary>
+            The MItemHome item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.MItemHomeInfo">
+            <summary>
+            The MItemHome item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.Root1">
+            <summary>
+            The Root1 item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.Root1Info">
+            <summary>
+            The Root1 item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.Alerts">
+            <summary>
+            The Alerts item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.AlertsInfo">
+            <summary>
+            The Alerts item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.PARTCloseBtn1">
+            <summary>
+            The PARTCloseBtn1 item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.PARTCloseBtn1Info">
+            <summary>
+            The PARTCloseBtn1 item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.MItemMap">
+            <summary>
+            The MItemMap item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.MItemMapInfo">
+            <summary>
+            The MItemMap item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.Home1">
+            <summary>
+            The Home1 item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.Home1Info">
+            <summary>
+            The Home1 item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.SomePicture">
+            <summary>
+            The SomePicture item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.SomePictureInfo">
+            <summary>
+            The SomePicture item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.ONLINE">
+            <summary>
+            The ONLINE item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.RootWindowAppFolder.ONLINEInfo">
+            <summary>
+            The ONLINE item info.
+            </summary>
+        </member>
+        <member name="T:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.ExplorerAppFolder.EdgeVisClient1RunningWindow">
+            <summary>
+            The EdgeVisClient1RunningWindow item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.ExplorerAppFolder.EdgeVisClient1RunningWindowInfo">
+            <summary>
+            The EdgeVisClient1RunningWindow item info.
+            </summary>
+        </member>
+        <member name="T:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClient1AppFolder">
+            <summary>
+            The EdgeVisClient1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClient1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EdgeVisClient1  folder.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClient1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClient1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClient1AppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.EdgeVISClient_TestRepositoryFolders.EdgeVisClient1AppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:EdgeVISClient_Test.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:EdgeVISClient_Test.Recording1.repo">
+            <summary>
+            Holds an instance of the EdgeVISClient_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:EdgeVISClient_Test.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:EdgeVISClient_Test.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:EdgeVISClient_Test.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:EdgeVISClient_Test.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:EdgeVISClient_Test.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:EdgeVISClient_Test.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:EdgeVISClient_Test.StartAUT.repo">
+            <summary>
+            Holds an instance of the EdgeVISClient_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:EdgeVISClient_Test.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:EdgeVISClient_Test.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:EdgeVISClient_Test.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:EdgeVISClient_Test.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:EdgeVISClient_Test.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:EdgeVISClient_Test.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

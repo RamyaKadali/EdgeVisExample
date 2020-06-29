@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8f52cd36-969e-4346-b3ff-c04726946705"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="EdgeVis_Test">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="bfb07c44-5280-4c10-a1d7-d293c5361829"
+	name="EdgeVis_TestRepository"
+	relativepath="EdgeVis_TestRepository.rxrep">
+		<codegen
+		classname="EdgeVis_TestRepository"
+		namespace="EdgeVis_Test">
+		</codegen>
+		<rootfolder
+		id="09fdfa38-e2ba-441a-8783-f08322a6ab74"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

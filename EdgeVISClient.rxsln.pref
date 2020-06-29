@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution EdgeVISClient[Solution Items[]Test1[]]]&#xD;&#xA;Solution EdgeVISClient\Test1\Recording1.rxrec&#xD;&#xA;Solution EdgeVISClient" />
+  <StartupProject value="{C5BEDE9A-7971-4958-9479-D6830DC6878D}" />
+</Properties>

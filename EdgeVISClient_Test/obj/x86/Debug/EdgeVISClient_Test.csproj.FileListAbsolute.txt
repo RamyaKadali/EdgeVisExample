@@ -1,0 +1,10 @@
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\EdgeVISClient_Test\bin\Debug\EdgeVISClient_Test.rxtmg
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\EdgeVISClient_Test\bin\Debug\EdgeVISClient_Test.rxtst
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\EdgeVISClient_Test\bin\Debug\EdgeVISClient_Test.exe.config
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\EdgeVISClient_Test\bin\Debug\EdgeVISClient_Test.xml
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\EdgeVISClient_Test\bin\Debug\EdgeVISClient_Test.exe
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\EdgeVISClient_Test\bin\Debug\EdgeVISClient_Test.pdb
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\EdgeVISClient_Test\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\EdgeVISClient_Test\obj\x86\Debug\EdgeVISClient_Test.csprojResolveAssemblyReference.cache
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\EdgeVISClient_Test\obj\x86\Debug\EdgeVISClient_Test.exe
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\EdgeVISClient_Test\obj\x86\Debug\EdgeVISClient_Test.pdb

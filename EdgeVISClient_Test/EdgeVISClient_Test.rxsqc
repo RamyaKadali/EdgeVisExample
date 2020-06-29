@@ -1,0 +1,12 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "EdgeVISClient_Test",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "TestSuite1",
+    "RunConfig": "TestRun"
+  }
+]

@@ -1,0 +1,404 @@
+﻿<repository
+id="f97fbb97-5c81-406f-a1e2-6fde3912b7e0"
+name="EdgeVISClient_TestRepository">
+	<codegen
+	classname="EdgeVISClient_TestRepository"
+	namespace="EdgeVISClient_Test">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="ae0e42e0-1a95-407b-adc6-3216e3fba618"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="b23ce785-3189-46d3-97f8-4319f5c5a6f4"
+		isrooted="True"
+		name="EdgeVisClient"
+		refpath="/form[@title='']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="712c41a3-6e96-41de-9848-734088d7a080"
+			name="CONNECT"
+			refimgid="fc8fb5ea-90c0-4d36-b1d7-ceee7cf60c78"
+			refpath="/form[@title='']/indicator/container/list/listitem[@index='1']/container/button/text[@caption='CONNECT']"
+			searchtimeout="30000ms">
+				/form[@title='']//list[@automationid='Root']/listitem[@index='1']/?/?/button[@automationid='BtnConnect']/text[@caption='CONNECT']
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="63706248-78c7-4c68-b513-2c2b23ce97d0"
+			name="CONNECT1"
+			refimgid="6cf575c1-9819-4f1f-ac7d-a10fbdcf9dee"
+			refpath="/form[@title='']/indicator/container/list/listitem[@index='0']/container/button/text[@caption='CONNECT']"
+			searchtimeout="30000ms">
+				/form[@title='']//list[@automationid='Root']/listitem[@index='0']/?/?/button[@automationid='BtnConnect']/text[@caption='CONNECT']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="ed8edb9c-3804-476c-b861-46cb155d569b"
+			name="Close"
+			refimgid="89e0e306-1555-4541-9e48-9b5f94c90308"
+			refpath="/form[@title='']/titlebar/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAE2SURBVDhPpZPNSsNAFIXv87h0laIW9BncuChu
+XRSsr+MTCC5ciRtjN1akYC3+QiMahaqttKYKsRWS8Z6bmTCLSal64Cwyc77DzGSGoDRNPbbPHrAT
+VSDM6QyynoFLmNCZmQUGLAp8GWAvVWrqqNnGZ6GQgyGwKBhgIOz2FM2tiL21qjo8bWUpS8g9PvfU
+00s/+2aWeB0J4NZNkBcYL1Y2VV2vyMDIwcPRp2yDDOwqMC6vb6mdg3qeg6+CUErJHnTBtudXN9T2
+7n6e/5p8/67A2BT9q2DPP5az+dMW+sNIYGimAnvvNgzR2XUnwcRF534q6ILlN/JEBDgeTwpBFwzJ
+RWK4ARiXxAUWwRAX+PQRxwth91W24fIUGI8pe5GXwcPy+e3dCQORORP47X2k45k0ZJ5ziYjoBy5w
+B0kaZ8CbAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="a58c5db0-ce8b-4ed8-a226-0691959848f4"
+		isrooted="True"
+		name="RootWindow"
+		refpath="/form[@automationid='RootWindow']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="1ad523ae-3af8-4845-a5f0-04ddade105bd"
+			name="HDR700Alarm2"
+			refimgid="b4d7182e-21b4-45cd-b2d2-d05072a195a9"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[3]/indicator[1]/container/list/container[2]/listitem[@automationid='HDR700_Alarm_2']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']/tabpagelist//list[@automationid='Root']/container[2]/listitem[@automationid='HDR700_Alarm_2']
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="23d58f0e-bf5e-4c29-9db7-07401a2f683a"
+			name="Root"
+			refimgid="b8946363-6c96-4845-8bf3-3f04eb76ea65"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[3]/indicator[3]/container[1]/list[@automationid='AutoLayouts']/container[@automationid='Content']/listitem[@index='0']/button[@automationid='Root']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']//list[@automationid='AutoLayouts']/container[@automationid='Content']/listitem[@index='0']/button[@automationid='Root']
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="696b281f-13d1-4ca0-9253-d7cfa9c78186"
+			name="PARTCloseBtn"
+			refimgid="0dde42cd-51f6-4de9-bd61-8c2e15962399"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[1]/button/container[@caption='PART_HeaderPanel']/tabpage[@title='IP470_Test_2']/button[@automationid='PART_CloseBtn']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']//button[@automationid='AddButton']/?/?/tabpage[@title='IP470_Test_2']/button[@automationid='PART_CloseBtn']
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="c4dc877f-4bb7-4559-8165-db377c3092cd"
+			name="TBlkEncoderName"
+			refimgid="6b19ff49-1175-41f2-858b-123c4f15f476"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[3]/indicator[1]/container[@caption='']/list[@automationid='Root']/container[2]/listitem[@automationid='HDR700_Alarm_2']/container/text[@automationid='TBlkEncoderName']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']/tabpagelist//list[@automationid='Root']/container[2]/listitem[@automationid='HDR700_Alarm_2']/?/?/text[@automationid='TBlkEncoderName']
+			</item>
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="8226c367-2da6-4685-aaaf-6959e62bcf13"
+			name="IP470Test2"
+			refimgid="61ef10d6-0a9a-4ee0-890d-323a59905a2a"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[3]/indicator[1]/container/list/container[2]/listitem[@automationid='IP470_Test_2']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']/tabpagelist//list[@automationid='Root']/container[2]/listitem[@automationid='IP470_Test_2']
+			</item>
+			<item
+			addcaps="tabpage,wpfelement,wpfgroupelement"
+			capname="tabpage"
+			id="d0e24e71-8136-4899-bd84-87a551f73966"
+			name="Home"
+			refimgid="49b5a12d-6e96-45e9-8891-96a489cac876"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[1]/button/tabpage[@title='Home']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']//button[@automationid='AddButton']/tabpage[@title='Home']
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="79f27a8e-037f-42cc-930e-b3ac8087e197"
+			name="Ext735Db"
+			refimgid="164cf519-98a0-4da2-84f0-99b63be23769"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[2]/menubar[@automationid='MainMenuLeft']/menuitem[@automationid='MItemHome']/text[@caption='ext-735-db']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']//menubar[@automationid='MainMenuLeft']/menuitem[@automationid='MItemHome']/text[@caption='ext-735-db']
+			</item>
+			<item
+			addcaps="menuitem,wpfelement,wpfgroupelement"
+			capname="menuitem"
+			id="60e20d4e-968a-468d-b272-df55e85b4120"
+			name="MItemHome"
+			refimgid="0d6d0703-183f-4413-9605-c7e970540aff"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[2]/menubar[@automationid='MainMenuLeft']/menuitem[@automationid='MItemHome']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']//menubar[@automationid='MainMenuLeft']/menuitem[@automationid='MItemHome']
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="be6f3c04-e66b-4a80-ac81-08c20a357736"
+			name="Root1"
+			refimgid="63169bd9-1509-4715-950b-5a879ae2f456"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[3]/indicator[3]/container[1]/list[@automationid='AutoLayouts']/container[@automationid='Content']/listitem[@index='1']/button[@automationid='Root']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']//list[@automationid='AutoLayouts']/container[@automationid='Content']/listitem[@index='1']/button[@automationid='Root']
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="183dc0af-3ffa-4137-94cd-7df5a358089e"
+			name="Alerts"
+			refimgid="776b9a8e-97ea-4339-9d30-195f135d257c"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[2]/menubar[@automationid='MainMenuLeft']/menuitem[@automationid='MItemAlerts']/text[@caption='Alerts']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']//menubar[@automationid='MainMenuLeft']/menuitem[@automationid='MItemAlerts']/text[@caption='Alerts']
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="0fa69ab3-bf59-46df-b66c-67d6b479d574"
+			name="PARTCloseBtn1"
+			refimgid="ad1aaab7-7718-4a94-b128-bc5855c32686"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[1]/button/container[@caption='PART_HeaderPanel']/tabpage[@title='Alerts']/button[@automationid='PART_CloseBtn']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']//button[@automationid='AddButton']/?/?/tabpage[@title='Alerts']/button[@automationid='PART_CloseBtn']
+			</item>
+			<item
+			addcaps="menuitem,wpfelement,wpfgroupelement"
+			capname="menuitem"
+			id="fc8f59e7-d771-4517-a379-fff0558af9ae"
+			name="MItemMap"
+			refimgid="e0ff4872-27ed-4247-be68-d796e8ea67e9"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[2]/menubar[@automationid='MainMenuLeft']/menuitem[@automationid='MItemMap']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']//menubar[@automationid='MainMenuLeft']/menuitem[@automationid='MItemMap']
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="3878a5ca-df9b-4f20-982c-64130b175442"
+			name="Home1"
+			refimgid="52204cb6-cfb7-4655-ad4b-b17b72e56f13"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[1]/button/container[@caption='PART_HeaderPanel']/tabpage[@title='Home']/text[@caption='Home']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']//button[@automationid='AddButton']/?/?/tabpage[@title='Home']/text[@caption='Home']
+			</item>
+			<item
+			addcaps="picture,wpfelement,wpfgroupelement"
+			capname="picture"
+			id="ea053170-3097-462a-8143-ccb20d9fa07f"
+			name="SomePicture"
+			refimgid="3f7d53b4-b050-4b08-b3ba-49d83e1d44bc"
+			refpath="/form[@automationid='RootWindow']/text/picture"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']/text/picture
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="4283e32f-f924-4b04-9593-06d636235dcd"
+			name="ONLINE"
+			refimgid="6b8b473e-f662-4189-a237-33b942258c2a"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[3]/indicator[1]/container/container[@automationid='headerGrid']/button[@automationid='TBtnConnected']/text[@caption='ONLINE']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']/tabpagelist//container[@automationid='headerGrid']/button[@automationid='TBtnConnected']/text[@caption='ONLINE']
+			</item>
+			<basepath>
+				/form[@automationid='RootWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAItSURBVDhPjZNbTxNBFMfnO/gtfPdBoi8m9cmE
+Nx7UJ59IDInRRBKDF8QL8cq1CWzVemlBgVCr5fKwULaKEIq0NUBptI2WtlJqZdvdXtju/t0ZuvWS
+JfUkZ8/u7Pn/ZubMHELNYrEcFwTBJ+qmqqqGfYz+ozk0l2pq4mg8qc4srsDhmYFtbAJPXNMY599j
+IxZnwpwksygXSyjvKqioKjI/d1QGefN20uddCrJk/2qEJS4E18EvfITgD7Gx1geDuriIkxdvofl6
+F7qejeFKrx1Wm91H7nBO8b59BJ22YXCjHtzmhtDndOHllBdN5zuwrANuDjhgHXLp7+voeT6qx7AO
+u4F4IimS1nsDmncpgFfTc7ja/xTWYTcDnOu0orn9Ib5nsnB6eDScakGprOBM2130OsbRdKEDWTGn
+kW+pNL4mtxDWtyDmJeTlPBLpDKRCEZ8iMRRLZewqCvvWNI3F6GYKYrUuhD2rplQUNJ69hGt9j5DJ
+/mCCevYXQCoUcPR0C8jBYzjQ0PhfoBogEP6MOb0WBsDwf0HBjS8IRaJVVRVAxe7ZeVPAn6DLPRw+
+BEKY9C1ic2t7D2CI6wGoU0h7/2PMr4TYPWEAF/9OqwegwrbuwdrsRv5OXtLIyNSsvB+ALdtEaHg8
+kRJJN2f3GwMGwCjc8uqaqZA6vQu0qcihw0dOGNuggBfuCaSzmVphzTymiyuVyl4zUaMQupLXvCCL
+kqTRozIT0okCa5Hc73Ym5BdlDwbpbaDPfAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="46664ba2-b71c-4488-9a36-3b361403ba85"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="29191b25-8694-4516-8eba-abd8e5197a90"
+			name="EdgeVisClient1RunningWindow"
+			refimgid="87f70a08-a50f-41b3-a0e8-8a0c6123f3cc"
+			refpath="/menubar[@processname='explorer' and @class='Shell_TrayWnd']/container[@controlid='40965']/container/element/toolbar/button[14]"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[14]
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="contextmenu,nativewindow"
+		capname="contextmenu"
+		id="840d74ff-15a5-4d72-9f5e-bdeb442b23ac"
+		isrooted="True"
+		name="EdgeVisClient1"
+		refpath="/contextmenu[@processname='EdgeVis Client']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="762d65ea-f282-4259-8526-52c36d53ca6a"
+			name="Close"
+			refimgid="1faf5ae3-9651-4ea0-92cf-d8e515990760"
+			refpath="/contextmenu[@processname='EdgeVis Client']/contextmenu/menuitem[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='EdgeVis Client']/?/?/menuitem[@accessiblename='Close']
+			</item>
+			<basepath>
+				/contextmenu[@processname='EdgeVis Client']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

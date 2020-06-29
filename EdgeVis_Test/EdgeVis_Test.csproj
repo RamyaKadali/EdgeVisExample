@@ -1,19 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{C5BEDE9A-7971-4958-9479-D6830DC6878D}</ProjectGuid>
+    <ProjectGuid>{387A40B1-8F0F-4254-A9D5-3AEC31AE0873}</ProjectGuid>
     <TargetFrameworkProfile />
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Test1</RootNamespace>
-    <AssemblyName>Test1</AssemblyName>
+    <RootNamespace>EdgeVis_Test</RootNamespace>
+    <AssemblyName>EdgeVis_Test</AssemblyName>
     <NoWarn>1591</NoWarn>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
     <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
-    <projectdefaultrepository>114e7a8d-8a70-450d-9cab-99a2a37859bb</projectdefaultrepository>
-    <StartAction>Project</StartAction>
+    <projectdefaultrepository>08b3c88b-5d81-4713-b2ae-b5b5bee055b1</projectdefaultrepository>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -124,93 +123,93 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs">
-      <id>83e726c1-74b0-4728-9c60-92b857ce92d0</id>
+      <id>6abf09db-9efb-49d0-9136-fc7efe7bbcde</id>
     </Compile>
     <Compile Include="CloseAUT.cs">
-      <BoundTo>cabd9a9a-79e6-4aa8-9233-9557a4630dc5</BoundTo>
+      <BoundTo>0489dc85-f129-4677-b19f-3c118c84ec75</BoundTo>
       <DependentUpon>CloseAUT.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>9a6b37b3-d0db-4556-8090-07eb8a1da90a</id>
+      <id>1ec85021-4dc0-4a45-b827-df7fb83b0bb1</id>
     </Compile>
     <Compile Include="CloseAUT.UserCode.cs">
-      <BoundTo>cabd9a9a-79e6-4aa8-9233-9557a4630dc5</BoundTo>
+      <BoundTo>0489dc85-f129-4677-b19f-3c118c84ec75</BoundTo>
       <DependentUpon>CloseAUT.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>179780a5-ebea-40e1-8a4d-61d74b7e4eee</id>
+      <id>50875310-8166-4686-9466-2bee234e080a</id>
+    </Compile>
+    <Compile Include="EdgeVis_TestRepository.cs">
+      <BoundTo>08b3c88b-5d81-4713-b2ae-b5b5bee055b1</BoundTo>
+      <DependentUpon>EdgeVis_TestRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>87ec297d-5fe1-41f3-a5c1-863233e5b1a2</id>
     </Compile>
     <Compile Include="Program.cs">
-      <id>620850fa-a3eb-4c0c-927b-8ae40ce4ce95</id>
+      <id>8726eb7a-d389-4fc3-8c05-f3384fed6ef6</id>
     </Compile>
     <Compile Include="Recording1.cs">
-      <BoundTo>25913241-99e9-4e45-857a-1997fd0dfd20</BoundTo>
+      <BoundTo>91ee5ccc-6cbd-4877-aa92-182b6bf07697</BoundTo>
       <DependentUpon>Recording1.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>b86f452b-5282-45e8-82c0-255b280a9ccf</id>
+      <id>aa941929-3212-488f-8fd8-ee995ff1298f</id>
     </Compile>
     <Compile Include="Recording1.UserCode.cs">
-      <BoundTo>25913241-99e9-4e45-857a-1997fd0dfd20</BoundTo>
+      <BoundTo>91ee5ccc-6cbd-4877-aa92-182b6bf07697</BoundTo>
       <DependentUpon>Recording1.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>3d9a4e90-134a-40d8-a144-b9617d0b7445</id>
+      <id>44b28ab3-f657-4ab5-b452-3d1227f7a831</id>
     </Compile>
     <Compile Include="StartAUT.cs">
-      <BoundTo>2b1a3775-7aa7-429d-899f-0a9468710599</BoundTo>
+      <BoundTo>49da364c-da95-4412-aa23-8c5370126877</BoundTo>
       <DependentUpon>StartAUT.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>7493ca71-16cf-4625-973e-3496c49b61c5</id>
+      <id>e30d39c9-7222-431e-9765-553ece105904</id>
     </Compile>
     <Compile Include="StartAUT.UserCode.cs">
-      <BoundTo>2b1a3775-7aa7-429d-899f-0a9468710599</BoundTo>
+      <BoundTo>49da364c-da95-4412-aa23-8c5370126877</BoundTo>
       <DependentUpon>StartAUT.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>75b24089-fb60-4a7a-9982-94dca806e13a</id>
-    </Compile>
-    <Compile Include="Test1Repository.cs">
-      <BoundTo>114e7a8d-8a70-450d-9cab-99a2a37859bb</BoundTo>
-      <DependentUpon>Test1Repository.rxrep</DependentUpon>
-      <RepositoryCode>true</RepositoryCode>
-      <id>d64f4dbd-308e-46e7-a07d-418df91c3dcc</id>
+      <id>2cd457ba-f1eb-4711-9858-a2d037c09029</id>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
-      <id>50150d30-7e06-4e1f-ba35-7c9ae58f4695</id>
+      <id>5c163cab-5e8f-4738-aaa0-1397bc7e3e16</id>
     </None>
     <None Include="CloseAUT.rxrec">
-      <BoundTo>114e7a8d-8a70-450d-9cab-99a2a37859bb</BoundTo>
-      <id>cabd9a9a-79e6-4aa8-9233-9557a4630dc5</id>
-      <recordtableid>d95df119-9eed-49bd-872f-2783d0b15b42</recordtableid>
+      <BoundTo>08b3c88b-5d81-4713-b2ae-b5b5bee055b1</BoundTo>
+      <id>0489dc85-f129-4677-b19f-3c118c84ec75</id>
+      <recordtableid>d097b6fd-7fd1-4197-8c7b-1a7b0b6fc5ef</recordtableid>
+    </None>
+    <None Include="EdgeVis_TestRepository.rximg">
+      <BoundTo>08b3c88b-5d81-4713-b2ae-b5b5bee055b1</BoundTo>
+      <DependentUpon>EdgeVis_TestRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>226cd065-ce9f-4d99-a221-2d160da49ecd</id>
+    </None>
+    <None Include="EdgeVis_TestRepository.rxrep">
+      <id>08b3c88b-5d81-4713-b2ae-b5b5bee055b1</id>
+      <repoid>bfb07c44-5280-4c10-a1d7-d293c5361829</repoid>
+      <reporootid>09fdfa38-e2ba-441a-8783-f08322a6ab74</reporootid>
     </None>
     <None Include="Recording1.rxrec">
-      <BoundTo>114e7a8d-8a70-450d-9cab-99a2a37859bb</BoundTo>
-      <id>25913241-99e9-4e45-857a-1997fd0dfd20</id>
-      <recordtableid>fad2d254-3667-49a1-b906-27813115161c</recordtableid>
+      <BoundTo>08b3c88b-5d81-4713-b2ae-b5b5bee055b1</BoundTo>
+      <id>91ee5ccc-6cbd-4877-aa92-182b6bf07697</id>
+      <recordtableid>8f52cd36-969e-4346-b3ff-c04726946705</recordtableid>
     </None>
     <None Include="StartAUT.rxrec">
-      <BoundTo>114e7a8d-8a70-450d-9cab-99a2a37859bb</BoundTo>
-      <id>2b1a3775-7aa7-429d-899f-0a9468710599</id>
-      <recordtableid>1f464fab-0a36-46bf-b732-229db38150ee</recordtableid>
-    </None>
-    <None Include="Test1Repository.rximg">
-      <BoundTo>114e7a8d-8a70-450d-9cab-99a2a37859bb</BoundTo>
-      <DependentUpon>Test1Repository.rxrep</DependentUpon>
-      <imageblob>true</imageblob>
-      <id>ccff7054-c49b-461c-98ba-96ff6fe50a8c</id>
-    </None>
-    <None Include="Test1Repository.rxrep">
-      <id>114e7a8d-8a70-450d-9cab-99a2a37859bb</id>
-      <repoid>ec857cee-2fe6-4539-aa67-6bface100e20</repoid>
-      <reporootid>7f8acb84-816d-487d-a0f5-4c56d6c342b4</reporootid>
+      <BoundTo>08b3c88b-5d81-4713-b2ae-b5b5bee055b1</BoundTo>
+      <id>49da364c-da95-4412-aa23-8c5370126877</id>
+      <recordtableid>761d1024-a70d-4dd6-8a30-3e96ed80d5ea</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Test1.rxtmg">
+    <Content Include="EdgeVis_Test.rxtmg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>a8dfbf89-af2e-4ad9-8024-999aa4825dd7</id>
+      <id>0b0e4d7e-2d73-490a-88a8-654181f034c3</id>
     </Content>
-    <Content Include="Test1.rxtst">
+    <Content Include="EdgeVis_Test.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>193e4f4a-7bfe-4960-b079-86e7e136327b</id>
+      <id>0cfa82e0-479e-4160-ae7c-64e4fda1da14</id>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,10 @@
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\bin\Debug\Test.rxtmg
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\bin\Debug\Test.rxtst
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\bin\Debug\Test.exe.config
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\bin\Debug\Test.xml
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\bin\Debug\Test.exe
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\bin\Debug\Test.pdb
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\obj\x86\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\obj\x86\Debug\Test.exe
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test\obj\x86\Debug\Test.pdb

@@ -1,0 +1,17 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Recording1.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="EdgeVISClient_Test.rxtst" />
+    <Element value="Recording1.rxrec" />
+    <Element value="StartAUT.rxrec" />
+    <Element value="CloseAUT.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>

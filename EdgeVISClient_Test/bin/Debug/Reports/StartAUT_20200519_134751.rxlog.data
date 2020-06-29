@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.7s"
+		durationms="9702"
+		type="root"
+		rid="1e644903fd09e1f3"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="RamyaKadali"
+		rxversion="9.3.1.0"
+		host="GLA-LAP-IT2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="3286x1080"
+		timestamp="19/05/2020 13:47:56"
+		timestampiso="2020-05-19T12:47:56"
+		endtime="19/05/2020 13:48:06"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.603"
+			timeRelativeToTestModuleStartTime="00:09.603"
+			timeWallClock="13:48:05"
+			time="00:09.603"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>StartAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.640"
+			timeRelativeToTestModuleStartTime="00:09.640"
+			timeWallClock="13:48:06"
+			time="00:09.640"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\Digital Barriers\EdgeVis Client\EdgeVis Client.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\EdgeVISClient_Test\StartAUT.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

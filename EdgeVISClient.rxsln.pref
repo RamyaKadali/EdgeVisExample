@@ -5,8 +5,17 @@
   <Array name="bookmarks" />
   <Array name="files" />
   <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{C5BEDE9A-7971-4958-9479-D6830DC6878D}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>d95df119-9eed-49bd-872f-2783d0b15b42</string>
+      <string>70dbc127-50d0-4e33-ae46-ae2155551a35</string>
+      <string>fad2d254-3667-49a1-b906-27813115161c</string>
+      <string>1f464fab-0a36-46bf-b732-229db38150ee</string>
+      <string>c7fcd851-999b-438d-94ea-faa59e033aa5</string>
+    </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution EdgeVISClient[Solution Items[]Test1[]]]&#xD;&#xA;Solution EdgeVISClient\Test1\Recording1.rxrec&#xD;&#xA;Solution EdgeVISClient" />
+  <ProjectBrowserState value="[Solution EdgeVISClient[Test1[Recording1.rxrec[]StartAUT.rxrec[]]]]&#xD;&#xA;Solution EdgeVISClient\Test1\Test1.rxtst&#xD;&#xA;Solution EdgeVISClient" />
   <StartupProject value="{C5BEDE9A-7971-4958-9479-D6830DC6878D}" />
 </Properties>

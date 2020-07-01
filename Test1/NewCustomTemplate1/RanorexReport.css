@@ -1603,7 +1603,7 @@ h3#testCasesHeader {
     display: none !important;
 }
 
-
+/* Uncomment to customize your report
         body {
             background-color: #EEEEEE;
             background-image: url(YourBackgroundImage.png);
@@ -1611,11 +1611,9 @@ h3#testCasesHeader {
        }
 
         #header-top #logo span {
-            height: 200px;
-            width: 250px;
-            background-image: url(DB.png);
+            height: 32px;
+            width: 128px;
+            background-image: url(YourLogo.png);
             background-position: 0;
         }
-        div#page {
-            margin-top: 30px;
-        }
+        */

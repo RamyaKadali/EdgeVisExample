@@ -10,3 +10,9 @@ C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test
 C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test1\obj\x86\Debug\Test1.csprojAssemblyReference.cache
 C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test1\obj\x86\Debug\Test1.csproj.CoreCompileInputs.cache
 C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test1\obj\x86\Debug\Test1.csproj.CopyComplete
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test1\bin\Debug\DB Automation\RanorexReport.css
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test1\bin\Debug\DB Automation\RanorexReport.png
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test1\bin\Debug\DB Automation\RanorexReport.xsl
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test1\bin\Debug\DB Automation\View.rxlog
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test1\bin\Debug\DB Automation\View.rxlog.data
+C:\Users\RamyaKadali\Documents\Ranorex\RanorexStudio Projects\EdgeVISClient\Test1\bin\Debug\DB Automation\DB.PNG

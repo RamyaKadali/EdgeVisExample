@@ -1,5 +1,7 @@
 ﻿<Properties>
-  <Array name="active" />
+  <Array name="active">
+    <Element value="Test1.rxtst" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="Recording1.rxrec" />

@@ -16,6 +16,6 @@
       <string>c7fcd851-999b-438d-94ea-faa59e033aa5</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution EdgeVISClient[Test1[Recording1.rxrec[]StartAUT.rxrec[]]]]&#xD;&#xA;Solution EdgeVISClient\Test1\Test1.rxtst&#xD;&#xA;Solution EdgeVISClient" />
+  <ProjectBrowserState value="[Solution EdgeVISClient[Solution Items[]Test1[Reports[]Recording1.rxrec[]StartAUT.rxrec[]]]]&#xD;&#xA;Solution EdgeVISClient\Test1\Test1.rxtst&#xD;&#xA;Solution EdgeVISClient\Test1\References" />
   <StartupProject value="{C5BEDE9A-7971-4958-9479-D6830DC6878D}" />
 </Properties>

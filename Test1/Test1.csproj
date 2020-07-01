@@ -138,6 +138,18 @@
       <UserCode>true</UserCode>
       <id>179780a5-ebea-40e1-8a4d-61d74b7e4eee</id>
     </Compile>
+    <Compile Include="DB Automation\Recording1.cs">
+      <BoundTo>d99980f9-9084-454a-832f-e27d3997bd82</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>22f008a7-91b4-4f83-8c3d-789d84d3d88f</id>
+    </Compile>
+    <Compile Include="DB Automation\Recording1.UserCode.cs">
+      <BoundTo>d99980f9-9084-454a-832f-e27d3997bd82</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3ea038e6-2666-4004-8e14-54428631f28d</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>620850fa-a3eb-4c0c-927b-8ae40ce4ce95</id>
     </Compile>
@@ -181,6 +193,15 @@
       <id>cabd9a9a-79e6-4aa8-9233-9557a4630dc5</id>
       <recordtableid>d95df119-9eed-49bd-872f-2783d0b15b42</recordtableid>
     </None>
+    <None Include="DB Automation\DB.PNG">
+      <id>605535e8-58de-4752-83c6-6d9da84d765e</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DB Automation\Recording1.rxrec">
+      <BoundTo>114e7a8d-8a70-450d-9cab-99a2a37859bb</BoundTo>
+      <id>d99980f9-9084-454a-832f-e27d3997bd82</id>
+      <recordtableid>c8d5eed9-1bf7-4f47-a3ee-8a25f35a3adb</recordtableid>
+    </None>
     <None Include="Recording1.rxrec">
       <BoundTo>114e7a8d-8a70-450d-9cab-99a2a37859bb</BoundTo>
       <id>25913241-99e9-4e45-857a-1997fd0dfd20</id>
@@ -204,6 +225,26 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DB Automation\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b7c9fb79-69e5-439a-8aee-3a5ad44e901f</id>
+    </Content>
+    <Content Include="DB Automation\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>8aec1181-0b7e-4ece-ab7e-298401099a3c</id>
+    </Content>
+    <Content Include="DB Automation\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>e7709723-80a6-4e43-b7ee-a98234448a6c</id>
+    </Content>
+    <Content Include="DB Automation\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>2aff7dec-a2f0-4fed-83ef-8bc2cd16215a</id>
+    </Content>
+    <Content Include="DB Automation\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>07f829eb-814a-41f1-a866-24cddb199b12</id>
+    </Content>
     <Content Include="Test1.rxtmg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>a8dfbf89-af2e-4ad9-8024-999aa4825dd7</id>
@@ -212,6 +253,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>193e4f4a-7bfe-4960-b079-86e7e136327b</id>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DB Automation">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b22cb4af-495c-49a3-aaa4-6d8adff680f9</id>
+    </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />

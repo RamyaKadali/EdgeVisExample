@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
@@ -22,6 +22,15 @@
 					value="">
 					</param>
 				</parameters>
+			</testcase>
+			<modulegroup
+			id="808eab7f-0aab-4059-b4d8-1d08fcb4e75a"
+			name="ModuleGroup2"
+			ref="ac09838a-e812-4e74-900e-a87fb97beaeb">
+			</modulegroup>
+			<testcase
+			id="82476301-0d38-4915-8eeb-902d51899240"
+			name="TestCase2">
 			</testcase>
 			<teardown
 			id="87e1161d-20a1-43ed-9e0d-b4d7fd600922"
@@ -57,12 +66,11 @@
 			id="eef79010-da51-463b-8020-23bb9b21a9f4"
 			junitreport="True"
 			name="Test1"
-			progressdialog="False"
-			reportcompress="False"
-			reportdirectoryname="C:\Ranorex"
+			reportcompress="True"
+			reportdirectoryname="Reports"
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
-			reporttemplatefolder=""
+			reporttemplatefolder="DB Automation"
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
@@ -111,6 +119,14 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="82476301-0d38-4915-8eeb-902d51899240"
+					name="TestCase2">
+						<modulegroup
+						id="808eab7f-0aab-4059-b4d8-1d08fcb4e75a"
+						name="ModuleGroup2">
+						</modulegroup>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -123,6 +139,9 @@
 		name="TestRun">
 			<testcontainer
 			id="7da051bf-4d41-4fd5-8998-d5feb2439e04">
+			</testcontainer>
+			<testcontainer
+			id="82476301-0d38-4915-8eeb-902d51899240">
 			</testcontainer>
 			<testcontainer
 			id="c4e1b162-ea64-4e01-8d5f-f656a612199f">

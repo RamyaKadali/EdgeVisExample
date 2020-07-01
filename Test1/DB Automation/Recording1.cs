@@ -20,19 +20,19 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Test1
+namespace Test1.DB_Automation
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
     ///The Recording1 recording.
     /// </summary>
-    [TestModule("fad2d254-3667-49a1-b906-27813115161c", ModuleType.Recording, 1)]
+    [TestModule("c8d5eed9-1bf7-4f47-a3ee-8a25f35a3adb", ModuleType.Recording, 1)]
     public partial class Recording1 : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the Test1Repository repository.
+        /// Holds an instance of the global::Test1.Test1Repository repository.
         /// </summary>
-        public static Test1Repository repo = Test1Repository.Instance;
+        public static global::Test1.Test1Repository repo = global::Test1.Test1Repository.Instance;
 
         static Recording1 instance = new Recording1();
 
@@ -117,8 +117,8 @@ namespace Test1
             repo.RootWindow.SomePicture.Click("5;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EdgeVisClient1.Close' at 30;10.", repo.EdgeVisClient1.CloseInfo, new RecordItemIndex(10));
-            repo.EdgeVisClient1.Close.Click("30;10");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EdgeVisClient1.Close' at 40;5.", repo.EdgeVisClient1.CloseInfo, new RecordItemIndex(10));
+            repo.EdgeVisClient1.Close.Click("40;5");
             Delay.Milliseconds(0);
             
         }

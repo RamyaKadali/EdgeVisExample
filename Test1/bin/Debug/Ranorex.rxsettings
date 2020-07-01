@@ -457,7 +457,7 @@ rxversion="9.3">
 		True
 	</plugins.win32.EnableDynamicMsaa>
 	<plugins.win32.ProcessWhitelist>
-		EdgeVis Client;explorer;MicrosoftEdge;SearchUI;
+		cmd;EdgeVis Client;explorer;MicrosoftEdge;SearchUI;ShellExperienceHost;StartMenuExperienceHost;
 	</plugins.win32.ProcessWhitelist>
 	<plugins.win32.ProcessBlacklist>
 	</plugins.win32.ProcessBlacklist>

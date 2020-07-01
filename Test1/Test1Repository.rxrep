@@ -32,6 +32,16 @@ name="Test1Repository">
 			searchtimeout="30000ms">
 				/form[@title='']//list[@automationid='Root']/listitem[@index='0']/?/?/button[@automationid='BtnConnect']/text[@caption='CONNECT']
 			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="1378e3dc-d386-4526-8d65-a5fb3c9e8e1c"
+			name="TextOK"
+			refimgid="870ac101-5447-45e7-b195-c432216ccc6d"
+			refpath="/form[@title='']/container[@caption='']/container/container/button[1]/text[@caption='OK']"
+			searchtimeout="30000ms">
+				/form[@title='']/container[@caption='']/?/?/container/button[1]/text[@caption='OK']
+			</item>
 			<basepath>
 				/form[@title='']
 			</basepath>
@@ -112,10 +122,50 @@ B0kaZ8CbAAAAAElFTkSuQmCC
 				searchtimeout="30000ms">
 					/form[@automationid='RootWindow']//menubar[@automationid='MainMenuLeft']/menuitem[@automationid='MItemMap']
 				</item>
+				<item
+				addcaps="text,wpfelement,wpfgroupelement"
+				capname="text"
+				id="e0453078-e82c-40e3-9398-7e0ddc4133d3"
+				name="TextMap"
+				refimgid="82fd55ab-8f43-4950-a052-30264e2d08a1"
+				refpath="/form[@automationid='RootWindow']/tabpagelist/container[2]/menubar[@automationid='MainMenuLeft']/menuitem[@automationid='MItemMap']/text[@caption='Map']"
+				searchtimeout="30000ms">
+					/form[@automationid='RootWindow']//menubar[@automationid='MainMenuLeft']/menuitem[@automationid='MItemMap']/text[@caption='Map']
+				</item>
 				<basepath>
 					/form[@automationid='RootWindow']//menubar[@automationid='MainMenuLeft']
 				</basepath>
 			</folder>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="e323b515-1c7f-442f-a5f0-164a9ac3462e"
+			name="Home1"
+			refimgid="8e5ab4aa-0c8a-4e62-b079-f23291df1bd1"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[1]/button/tabpage/text[@caption='Home']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']//button[@automationid='AddButton']/tabpage[@title='Home']/text[@caption='Home']
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="3b4e661d-cd1c-472b-a625-ac443ec665aa"
+			name="RULEBUILDER"
+			refimgid="a7c5670b-c0a1-4e0d-b3e8-056c423eec16"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[3]/indicator[2]/container/button/text[@caption='RULE BUILDER']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']/tabpagelist//button[@automationid='BtnRuleBuilder']/text[@caption='RULE BUILDER']
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="f6e11e2f-8af9-40fa-975e-30e725bf2a1a"
+			name="Home2"
+			refimgid="f1a90822-0c01-4e87-b430-b6a0f1e3a8d8"
+			refpath="/form[@automationid='RootWindow']/tabpagelist/container[1]/button/container[@caption='PART_HeaderPanel']/tabpage[@title='Home']/text[@caption='Home']"
+			searchtimeout="30000ms">
+				/form[@automationid='RootWindow']//button[@automationid='AddButton']/?/?/tabpage[@title='Home']/text[@caption='Home']
+			</item>
 			<basepath>
 				/form[@automationid='RootWindow']
 			</basepath>

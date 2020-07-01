@@ -130,6 +130,7 @@ namespace Test1
         public partial class EdgeVisClientAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _connectInfo;
+            RepoItemInfo _textokInfo;
 
             /// <summary>
             /// Creates a new EdgeVisClient  folder.
@@ -138,6 +139,7 @@ namespace Test1
                     base("EdgeVisClient", "/form[@title='']", parentFolder, 30000, null, true, "efc5f532-4da0-425a-be77-b724e64694cd", "")
             {
                 _connectInfo = new RepoItemInfo(this, "CONNECT", ".//list[@automationid='Root']/listitem[@index='0']/?/?/button[@automationid='BtnConnect']/text[@caption='CONNECT']", 30000, null, "34860008-bbd9-4ecc-9206-eb7fd488472b");
+                _textokInfo = new RepoItemInfo(this, "TextOK", "container[@caption='']/?/?/container/button[1]/text[@caption='OK']", 30000, null, "1378e3dc-d386-4526-8d65-a5fb3c9e8e1c");
             }
 
             /// <summary>
@@ -187,6 +189,30 @@ namespace Test1
                     return _connectInfo;
                 }
             }
+
+            /// <summary>
+            /// The TextOK item.
+            /// </summary>
+            [RepositoryItem("1378e3dc-d386-4526-8d65-a5fb3c9e8e1c")]
+            public virtual Ranorex.Text TextOK
+            {
+                get
+                {
+                    return _textokInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TextOK item info.
+            /// </summary>
+            [RepositoryItemInfo("1378e3dc-d386-4526-8d65-a5fb3c9e8e1c")]
+            public virtual RepoItemInfo TextOKInfo
+            {
+                get
+                {
+                    return _textokInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -198,6 +224,9 @@ namespace Test1
             Test1RepositoryFolders.MainMenuLeftFolder _mainmenuleft;
             RepoItemInfo _homeInfo;
             RepoItemInfo _somepictureInfo;
+            RepoItemInfo _home1Info;
+            RepoItemInfo _rulebuilderInfo;
+            RepoItemInfo _home2Info;
 
             /// <summary>
             /// Creates a new RootWindow  folder.
@@ -208,6 +237,9 @@ namespace Test1
                 _mainmenuleft = new Test1RepositoryFolders.MainMenuLeftFolder(this);
                 _homeInfo = new RepoItemInfo(this, "Home", ".//button[@automationid='AddButton']/container[@caption='PART_HeaderPanel']/tabpage[@title='Home']", 30000, null, "03d53709-1b9b-424a-8e6b-d3ca8c729ee6");
                 _somepictureInfo = new RepoItemInfo(this, "SomePicture", "text/picture", 30000, null, "4ab36df8-971b-4dad-98ec-b3567a08f665");
+                _home1Info = new RepoItemInfo(this, "Home1", ".//button[@automationid='AddButton']/tabpage[@title='Home']/text[@caption='Home']", 30000, null, "e323b515-1c7f-442f-a5f0-164a9ac3462e");
+                _rulebuilderInfo = new RepoItemInfo(this, "RULEBUILDER", "tabpagelist//button[@automationid='BtnRuleBuilder']/text[@caption='RULE BUILDER']", 30000, null, "3b4e661d-cd1c-472b-a625-ac443ec665aa");
+                _home2Info = new RepoItemInfo(this, "Home2", ".//button[@automationid='AddButton']/?/?/tabpage[@title='Home']/text[@caption='Home']", 30000, null, "f6e11e2f-8af9-40fa-975e-30e725bf2a1a");
             }
 
             /// <summary>
@@ -283,6 +315,78 @@ namespace Test1
             }
 
             /// <summary>
+            /// The Home1 item.
+            /// </summary>
+            [RepositoryItem("e323b515-1c7f-442f-a5f0-164a9ac3462e")]
+            public virtual Ranorex.Text Home1
+            {
+                get
+                {
+                    return _home1Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Home1 item info.
+            /// </summary>
+            [RepositoryItemInfo("e323b515-1c7f-442f-a5f0-164a9ac3462e")]
+            public virtual RepoItemInfo Home1Info
+            {
+                get
+                {
+                    return _home1Info;
+                }
+            }
+
+            /// <summary>
+            /// The RULEBUILDER item.
+            /// </summary>
+            [RepositoryItem("3b4e661d-cd1c-472b-a625-ac443ec665aa")]
+            public virtual Ranorex.Text RULEBUILDER
+            {
+                get
+                {
+                    return _rulebuilderInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RULEBUILDER item info.
+            /// </summary>
+            [RepositoryItemInfo("3b4e661d-cd1c-472b-a625-ac443ec665aa")]
+            public virtual RepoItemInfo RULEBUILDERInfo
+            {
+                get
+                {
+                    return _rulebuilderInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Home2 item.
+            /// </summary>
+            [RepositoryItem("f6e11e2f-8af9-40fa-975e-30e725bf2a1a")]
+            public virtual Ranorex.Text Home2
+            {
+                get
+                {
+                    return _home2Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Home2 item info.
+            /// </summary>
+            [RepositoryItemInfo("f6e11e2f-8af9-40fa-975e-30e725bf2a1a")]
+            public virtual RepoItemInfo Home2Info
+            {
+                get
+                {
+                    return _home2Info;
+                }
+            }
+
+            /// <summary>
             /// The MainMenuLeft folder.
             /// </summary>
             [RepositoryFolder("715e7dfe-d781-44a9-8106-041ce2ca36c0")]
@@ -301,6 +405,7 @@ namespace Test1
             RepoItemInfo _alertsInfo;
             RepoItemInfo _ext735dbInfo;
             RepoItemInfo _mitemmapInfo;
+            RepoItemInfo _textmapInfo;
 
             /// <summary>
             /// Creates a new MainMenuLeft  folder.
@@ -311,6 +416,7 @@ namespace Test1
                 _alertsInfo = new RepoItemInfo(this, "Alerts", "menuitem[@automationid='MItemAlerts']/text[@caption='Alerts']", 30000, null, "2b0486eb-a4cf-4015-9a4f-c7b05a95ef64");
                 _ext735dbInfo = new RepoItemInfo(this, "Ext735Db", "menuitem[@automationid='MItemHome']/text[@caption='ext-735-db']", 30000, null, "7ca12ce2-9fef-48d5-ae93-782bbf9b1bc4");
                 _mitemmapInfo = new RepoItemInfo(this, "MItemMap", "menuitem[@automationid='MItemMap']", 30000, null, "c4ba6e9f-e0bd-47c1-a0ac-e7da0ae2b8fb");
+                _textmapInfo = new RepoItemInfo(this, "TextMap", "menuitem[@automationid='MItemMap']/text[@caption='Map']", 30000, null, "e0453078-e82c-40e3-9398-7e0ddc4133d3");
             }
 
             /// <summary>
@@ -406,6 +512,30 @@ namespace Test1
                 get
                 {
                     return _mitemmapInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TextMap item.
+            /// </summary>
+            [RepositoryItem("e0453078-e82c-40e3-9398-7e0ddc4133d3")]
+            public virtual Ranorex.Text TextMap
+            {
+                get
+                {
+                    return _textmapInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TextMap item info.
+            /// </summary>
+            [RepositoryItemInfo("e0453078-e82c-40e3-9398-7e0ddc4133d3")]
+            public virtual RepoItemInfo TextMapInfo
+            {
+                get
+                {
+                    return _textmapInfo;
                 }
             }
         }

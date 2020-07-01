@@ -48,6 +48,45 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:Test1.DB_Automation.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Test1.DB_Automation.Recording1.repo">
+            <summary>
+            Holds an instance of the global::Test1.Test1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Test1.DB_Automation.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Test1.DB_Automation.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Test1.DB_Automation.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Test1.DB_Automation.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Test1.DB_Automation.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Test1.DB_Automation.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:Test1.Recording1">
              <summary>
             The Recording1 recording.
@@ -211,6 +250,16 @@
             The CONNECT item info.
             </summary>
         </member>
+        <member name="P:Test1.Test1RepositoryFolders.EdgeVisClientAppFolder.TextOK">
+            <summary>
+            The TextOK item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.EdgeVisClientAppFolder.TextOKInfo">
+            <summary>
+            The TextOK item info.
+            </summary>
+        </member>
         <member name="T:Test1.Test1RepositoryFolders.RootWindowAppFolder">
             <summary>
             The RootWindowAppFolder folder.
@@ -249,6 +298,36 @@
         <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.SomePictureInfo">
             <summary>
             The SomePicture item info.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.Home1">
+            <summary>
+            The Home1 item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.Home1Info">
+            <summary>
+            The Home1 item info.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.RULEBUILDER">
+            <summary>
+            The RULEBUILDER item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.RULEBUILDERInfo">
+            <summary>
+            The RULEBUILDER item info.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.Home2">
+            <summary>
+            The Home2 item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.Home2Info">
+            <summary>
+            The Home2 item info.
             </summary>
         </member>
         <member name="P:Test1.Test1RepositoryFolders.RootWindowAppFolder.MainMenuLeft">
@@ -304,6 +383,16 @@
         <member name="P:Test1.Test1RepositoryFolders.MainMenuLeftFolder.MItemMapInfo">
             <summary>
             The MItemMap item info.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.MainMenuLeftFolder.TextMap">
+            <summary>
+            The TextMap item.
+            </summary>
+        </member>
+        <member name="P:Test1.Test1RepositoryFolders.MainMenuLeftFolder.TextMapInfo">
+            <summary>
+            The TextMap item info.
             </summary>
         </member>
         <member name="T:Test1.Test1RepositoryFolders.EdgeVisClient1AppFolder">

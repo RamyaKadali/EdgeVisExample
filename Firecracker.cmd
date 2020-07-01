@@ -1,0 +1,1 @@
+java -jar practitest-firecracker-standalone.jar --api-uri=https://eu1-prod-api.practitest.app/ --reports-path="xmlreports" --testset-name="Test1" --author-id=26945 --config-path="%FIRECRACKER%" create-and-populate-testset
